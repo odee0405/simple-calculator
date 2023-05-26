@@ -1,15 +1,5 @@
-# simple-calculator
-num1 = float(input("Enter first number: "))
-op = input("Enter operator: ")
-num2 = float(input("Enter second number: "))
+# Simple Calculator
 
-if op == "+":
-    print(num1 + num2)
-elif op == "-":
-    print(num1 - num2)
-elif op == "/":
-    print(num1 / num2)
-elif op == "*":
-    print(num1 * num2)
-else:
-    print("Invalid Operator!")
+A calculator performing simple operations of addition, subtraction, division and multiplication. 
+My thought process was getting inputs from the user and using conditionalities to eliminate undesired operations per use case 
+
